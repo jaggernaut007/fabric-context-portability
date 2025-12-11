@@ -160,3 +160,38 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+# Project-Specific Files
+# ========================
+
+# Large data files (keep cache files for efficiency)
+*.csv
+*.tsv
+
+# Neo4j data volumes
+neo4j_data/
+neo4j_logs/
+
+# Local development
+.DS_Store
+*.swp
+*.swo
+*~
+.vscode/settings.json
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+
+# IDE and editor specific
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Ignore specific files
+videos/
