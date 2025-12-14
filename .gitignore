@@ -194,4 +194,4 @@ tmp/
 Thumbs.db
 
 # Ignore specific files
-videos/
+# videos/
